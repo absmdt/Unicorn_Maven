@@ -16,4 +16,8 @@ CREATE TABLE unicorn
 	investors TEXT
 );
 
---Imported .csv file through Workbench Import
+--Imported .csv file
+
+--Returning all results
+SELECT * FROM unicorn_cos;
+-- No errors
