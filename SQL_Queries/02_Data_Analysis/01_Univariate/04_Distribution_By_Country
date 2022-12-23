@@ -11,7 +11,7 @@ ORDER BY country ASC;
 
 -- Checking the distribution of unicorn companies across each country
 SELECT country, COUNT(country)
-FROM unicorn
-GROUP BY country_cos
+FROM unicorn_cos
+GROUP BY country
 ORDER BY COUNT(country) DESC;
 -- The top 5 most frequent countries for unicorn companies are: U.S., China, India, U.K., and Germany (U.S. being the most dominant)
